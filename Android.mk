@@ -66,7 +66,7 @@ LOCAL_SRC_FILES := $(call all-proto-files-under, protos)
 LOCAL_PROTOC_OPTIMIZE_TYPE := nano
 LOCAL_PROTOC_FLAGS := --proto_path=$(LOCAL_PATH)/protos/
 
-LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_TAGS := optional tests com.example.test Visibility
 LOCAL_MODULE := launcher_proto_lib
 LOCAL_IS_HOST_MODULE := true
 LOCAL_STATIC_JAVA_LIBRARIES := host-libprotobuf-java-nano
