@@ -21,7 +21,8 @@ LOCAL_PATH := $(call my-dir)
 #
 include $(CLEAR_VARS)
 
-LOCAL_MODULE_TAGS := optional Test com.example.test Visibility
+#LOCAL_MODULE_TAGS := optional Test com.example.test Visibility
+LOCAL_MODULE_TAGS := tests
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v4 \
